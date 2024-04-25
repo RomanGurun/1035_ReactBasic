@@ -3,6 +3,7 @@
  const router=createBrowserRouter([{
 
     path:"/",
+    // element:{Home}
     element:<h1>Home page</h1>
 },{
 
