@@ -3,6 +3,7 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from './home';
 import About from './About';
+import UseEffect from './UseEffect';
 function App() {
 // var mystyle={
 // color:"red",
@@ -20,7 +21,7 @@ function App() {
 <Route path="/contact" element={<h2>Contact page</h2>}/>
 
 
-
+<Route path="/useEffect" element={<UseEffect/>}/>
 
 
 </Routes>
